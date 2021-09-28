@@ -4,7 +4,6 @@ Created on Sun Sep 26 20:05:51 2021
 
 @author: mjt32
 """
-
 from datetime import datetime
 
 import numpy as np
