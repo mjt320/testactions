@@ -14,4 +14,4 @@ from test.helpers import log_results
 def test_function1():
     res = function1()
     np.testing.assert_equal(2,res)
-    log_results(str('Updating results file: ' + datetime.now()) + ' ' + str(res) + '\n')
+    log_results('Updating results file: ' + str(datetime.now()) + ' ' + str(res) + '\n')
