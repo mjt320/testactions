@@ -28,7 +28,7 @@ jobs:
       run: |
         pytest
     - name: Commit results files and push to remote
-      if: ${{ matrix.os == 'ubuntu-latest2' }}
+      if: ${{ matrix.os == 'ubuntu-latest' }}
       run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
