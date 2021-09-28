@@ -9,7 +9,7 @@ from datetime import datetime
 import numpy as np
 from src.module import function1
 
-from helpers import log_results
+from test.helpers import log_results
 
 def test_function1():
     res = function1()
