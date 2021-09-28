@@ -26,5 +26,5 @@ jobs:
         pip install ".[test]"
     - name: Test with pytest
       run: |
-        coverage run -m pytest
+        pytest testactions
     
